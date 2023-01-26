@@ -20,3 +20,8 @@
     4. What’s your project’s name? YES
     5. In which directory is your code located? YES (en la raiz)
     6. Want to modify these settings? NO
+
+    Ya tenemos deployado el proyecto en vercel.com
+
+- Se agregó el modulo users.ts en "src/pages/api" para prueba, automaticamente se crea la ruta para ese modulo y lo podemos probar de manera local con npm run dev y la ruta es `localhost:3000/api/users`
+- Para deployar este cambio, conectar con github en Vercel, clic en "Connect Git Repository", de esta manera cuando hacemos un push hace el deploy automatico.
